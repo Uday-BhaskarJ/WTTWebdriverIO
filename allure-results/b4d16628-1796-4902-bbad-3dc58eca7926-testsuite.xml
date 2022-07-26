@@ -1,0 +1,162 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658830747714' stop='1658830807737'>
+    <name>dynamic loading page</name>
+    <title>dynamic loading page</title>
+    <test-cases>
+        <test-case start='1658830747714' status='broken' stop='1658830807736'>
+            <name>wait for the hidden element to show</name>
+            <title>wait for the hidden element to show</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps>
+                <step start='1658830747719' status='passed' stop='1658830747748'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='00d0472e-6413-48aa-9636-5c9c3639d9ca-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='1de389c1-788f-4487-bf13-cc93fdd49c91-attachment.json' type='application/json' size='1008'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1658830747755' status='passed' stop='1658830747776'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8227f731-65a0-4d40-975f-6007ef02315b-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='302ff2db-20da-4374-85e6-c9fa1d60d1c6-attachment.json' type='application/json' size='1005'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1658830747780' status='passed' stop='1658830803602'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='95dc84e5-56ae-4a71-af78-944b9e0db606-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1658830803607' status='passed' stop='1658830803628'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='1609feeb-e1b6-42e6-a9fe-4672c3fe510e-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='cd23197f-e638-4f2f-9d34-c95b5382ec9b-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1658830803631' status='passed' stop='1658830803647'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='eb665ba6-a52f-426c-93d6-b49074bff6a8-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='77be5d36-7442-413c-94f7-30e1d8b620ff-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1658830803650' status='passed' stop='1658830803695'>
+                    <name>POST /session/:sessionId/element/8fc10de0-8a4e-4585-b48e-83188f4937f2/click</name>
+                    <title>POST /session/:sessionId/element/8fc10de0-8a4e-4585-b48e-83188f4937f2/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658830803696' status='passed' stop='1658830803714'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9f665e07-5ade-40e2-a42e-35bcb67eb492-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='6e1b7fe8-d654-4941-9fb2-207ae7fa31b6-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1658830803716' status='passed' stop='1658830803749'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='fc9af12d-1718-40a5-a09a-e8e13ceb6b8b-attachment.json' type='application/json' size='8337'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1658830804208' status='passed' stop='1658830804226'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='f552bb15-b827-4239-a4a5-d4aca1fe1905-attachment.json' type='application/json' size='8337'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1658830804701' status='passed' stop='1658830804715'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='4e86fea9-37c4-4c48-a264-900ea4c71a27-attachment.json' type='application/json' size='8337'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1658830805216' status='passed' stop='1658830805227'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='ed3469a2-f8d2-4096-8d27-0bcb0f94816a-attachment.json' type='application/json' size='8337'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1658830805700' status='passed' stop='1658830805710'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='1a3fd0d0-b5d4-4e58-991f-499d3df39382-attachment.json' type='application/json' size='8337'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1658830806212' status='passed' stop='1658830806222'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='b012d5fc-512f-4572-9035-027d6f0ed04d-attachment.json' type='application/json' size='8337'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1658830806707' status='passed' stop='1658830806717'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='c17536c4-4027-4d3d-aeed-942d232f4cf7-attachment.json' type='application/json' size='8337'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1658830807198' status='passed' stop='1658830807211'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='c096a3d5-8720-41d6-924d-77d964fb240d-attachment.json' type='application/json' size='8337'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1658830807696' status='passed' stop='1658830807712'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='623a0b44-8a02-463b-b8a7-1cc742903643-attachment.json' type='application/json' size='8337'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "dynamic loading page wait for the hidden element to show" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\WalkingTree\Documents\webdriverioFrameworkAllure\test\specs\dynamicloading.e2e.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "dynamic loading page wait for the hidden element to show" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\WalkingTree\Documents\webdriverioFrameworkAllure\test\specs\dynamicloading.e2e.js)
+                    at createTimeoutError (C:\Users\WalkingTree\Documents\webdriverioFrameworkAllure\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\WalkingTree\Documents\webdriverioFrameworkAllure\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\WalkingTree\Documents\webdriverioFrameworkAllure\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:555:17)
+                    at processTimers (internal/timers.js:498:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

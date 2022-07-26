@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658828614350' stop='1658828620269'>
+    <name>dunamic loading page</name>
+    <title>dunamic loading page</title>
+    <test-cases>
+        <test-case start='1658828614351' status='failed' stop='1658828620268'>
+            <name>wait for the hidden element to show</name>
+            <title>wait for the hidden element to show</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps>
+                <step start='1658828614354' status='passed' stop='1658828620111'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='379cd323-321b-4341-bdfb-a1c1bb38b41c-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps>
+                        <step start='1658828614359' status='passed' stop='1658828614393'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='39b6cc3b-85e9-49eb-88dd-b9bb6484098b-attachment.json' type='application/json' size='54'/>
+                                <attachment title='Response' source='aa7b7f63-2c6c-4e1b-8fd3-56c1e6248675-attachment.json' type='application/json' size='1005'/>
+                            </attachments>
+                            <steps>
+                                <step start='1658828614363' status='passed' stop='1658828614381'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='fa18a983-6aa3-4939-aeac-8cdb13be7b66-attachment.json' type='application/json' size='67'/>
+                                        <attachment title='Response' source='867ca3bf-cfa6-4214-bacc-adc65bc5a09c-attachment.json' type='application/json' size='1001'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1658828620117' status='failed' stop='1658828620268'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1658828620124' status='passed' stop='1658828620267'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='10e59414-345b-422a-8e71-30e17e060876-attachment.json' type='application/json' size='50'/>
+                                <attachment title='Screenshot' source='32645734-2cd3-4eed-96e5-2a184982c6b2-attachment.png' type='image/png' size='59080'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Unexpected return from a matcher function.
+                Matcher functions should return an object in the following format:
+                  {message?: string | function, pass: boolean}
+                '{"actual": {}, "expected": "Hello World!", "message": [Function anonymous], "name": "toEqual", "pass": {}}' was returned</message>
+                <stack-trace>Error: Unexpected return from a matcher function.
+                Matcher functions should return an object in the following format:
+                  {message?: string | function, pass: boolean}
+                '{"actual": {}, "expected": "Hello World!", "message": [Function anonymous], "name": "toEqual", "pass": {}}' was returned
+                    at Context.&lt;anonymous> (C:\Users\WalkingTree\Documents\webdriverioFrameworkAllure\test\specs\dynamicloading.e2e.js:10:27)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
