@@ -6,7 +6,7 @@ Steps to Understand the Webdriverio Framework and Work Accordingly
 2.	Install Visual Studio Code in your Machine
 3.	Import the project Framework into Visual Studio Code.
 4.	Go to Terminal and select the folder webdriverioFramework/	
-5.	Enter the command----- npm init for generating package.json file
+5.	Enter the command----- npm init for generating package.json file (while generating new framework---currently package.json is already exists in the framework)
 6.	Enter the command------npm init wdio ---for installing webdriverio and while selecting the reports select (allure reports)
 7.	To run all the tests enter the command ------ npx wdio run .\wdio.conf.js  
 8.	To run specific tests enter the command------ npx wdio --spec ./test\specs\main.e2e.js    
